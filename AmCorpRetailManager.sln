@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACDataManager", "ACDataManager\ACDataManager.csproj", "{D083EE3B-68B4-460F-9CB7-F3B760AA9575}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ACRData", "ACRData\ACRData.sqlproj", "{74705482-B9F8-498D-BBB8-DAFF92283A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACRDesktopUI", "ACRDesktopUI\ACRDesktopUI.csproj", "{AF67A27E-8B21-4178-A624-3F123054340D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{D083EE3B-68B4-460F-9CB7-F3B760AA9575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D083EE3B-68B4-460F-9CB7-F3B760AA9575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D083EE3B-68B4-460F-9CB7-F3B760AA9575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74705482-B9F8-498D-BBB8-DAFF92283A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74705482-B9F8-498D-BBB8-DAFF92283A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74705482-B9F8-498D-BBB8-DAFF92283A1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74705482-B9F8-498D-BBB8-DAFF92283A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74705482-B9F8-498D-BBB8-DAFF92283A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74705482-B9F8-498D-BBB8-DAFF92283A1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AF67A27E-8B21-4178-A624-3F123054340D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF67A27E-8B21-4178-A624-3F123054340D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF67A27E-8B21-4178-A624-3F123054340D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF67A27E-8B21-4178-A624-3F123054340D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
